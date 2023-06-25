@@ -1,27 +1,45 @@
 <section class="container section-2">
   <!-- offer 1 -->
-  <?php foreach (array_slice($items, 0, 1) as $item) { ?>
-    <div class="offer offer-1">
-      <img src="../build/img/<?php echo $item->img ?>.webp" alt="a computer in dark with with white shadow" class="offer-img offer-1-img">
-      <div class="offer-description offer-desc-1">
-        <h2 class="offer-title"><?php echo $item->itemname; ?></h2>
-        <p class="offer-hook">This a Item nulla vulputate magna vel odio sagittis bibendium...</p>
-        <div class="cart-btn">ADD TO CART</div>
+
+  <div class="offer offer-1">
+    <div class="just_in-slider slider swiper">
+      <div class="swiper-wrapper">
+        <?php foreach ($items as $item) { ?>
+          <div class="item swiper-slide">
+            <p class="itemnamemain"><?php echo $item->itemname ?></p>
+          </div>
+        <?php } ?>
       </div>
+      <div class="swiper-button-next"></div>
+      <div class="swiper-button-prev"></div>
     </div>
-  <?php } ?>
+    <div class="offer-description offer-desc-1">
+      <h2 class="offer-title"><?php echo "Just In"; ?></h2>
+      <p class="offer-hook">This a Item nulla vulputate magna vel odio sagittis bibendium...</p>
+      <div class="cart-btn">Step In</div>
+    </div>
+  </div>
 
   <!-- offer 2 -->
-  <?php foreach (array_slice($items, 2, 1) as $item) { ?>
-    <div class="offer offer-2">
-      <img src="../build/img/<?php echo $item->img ?>.webp" alt="a opened computer" class="offer-img offer-2-img">
-      <div class="offer-description offer-desc-2">
-        <h2 class="offer-title"><?php echo $item->itemname; ?></h2>
-        <p class="offer-hook">This a Item nulla vulputate magna vel odio sagittis bibendium...</p>
-        <div class="cart-btn">ADD TO CART</div>
+
+  <div class="offer offer-2">
+  <div class="trending-slider slider swiper">
+      <div class="swiper-wrapper">
+        <?php foreach ($items as $item) { ?>
+          <div class="item swiper-slide">
+            <p class="itemnamemain"><?php echo $item->itemname ?></p>
+          </div>
+        <?php } ?>
       </div>
+      <div class="swiper-button-next"></div>
+      <div class="swiper-button-prev"></div>
     </div>
-  <?php } ?>
+    <div class="offer-description offer-desc-2">
+      <h2 class="offer-title"><?php echo "Trending"; ?></h2>
+      <p class="offer-hook">This a Item nulla vulputate magna vel odio sagittis bibendium...</p>
+      <div class="cart-btn">Step In</div>
+    </div>
+  </div>
 </section>
 
 <!-- PRODUCT SECTION -->

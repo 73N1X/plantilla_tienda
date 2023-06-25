@@ -33,7 +33,7 @@
                 <h2 class="company-slogan">Ropa, accesorios para GYM, equipo de entrenamiento y mucho más...</h2>
             </div>
             <div class="home-computer-container">
-                <img class="home-computer" src="https://cdn6.f-cdn.com/contestentries/1488191/22008392/5cb092b6b7d2d_thumb900.jpg" alt="a computer in dark with shadow" class="home-img">
+                <img class="home-computer" src="../build/img/6.webp" alt="a computer in dark with shadow" class="home-img">
             </div>
         </section>
 
@@ -89,7 +89,7 @@
                 <div class="copyright">copyright © <?php echo date('Y') ?> • <b>Plantilla</b></div>
             </div>
         </footer>
-        <script src="../build/js/bundle.min.js"></script>
+        <script src="../build/js/main.js"></script>
 </body>
 
 </html>

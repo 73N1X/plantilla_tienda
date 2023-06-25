@@ -47,7 +47,7 @@ img {
 
 .company-logo {
   font-size: 2.5rem;
-  background: -webkit-linear-gradient(120deg, hsl(28, 72%, 83%), hsl(9, 94%, 61%));
+  background: -webkit-linear-gradient(120deg, hsl(28, 72%, 83%), hsl(44, 94%, 70%));
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -68,14 +68,14 @@ img {
   font-size: 1.1rem;
   letter-spacing: 0.05rem;
   position: relative;
-  background: -webkit-linear-gradient(hsl(28, 72%, 83%), hsl(9, 94%, 61%));
+  background: -webkit-linear-gradient(hsl(28, 72%, 83%), hsl(44, 94%, 70%));
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
 .nav-link::before {
   content: "";
-  background: linear-gradient(hsl(9, 94%, 61%), hsl(28, 72%, 83%));
+  background: linear-gradient(hsl(44, 94%, 70%), hsl(28, 72%, 83%));
   width: 100%;
   height: 0.05rem;
   position: absolute;
@@ -97,7 +97,7 @@ img {
 }
 
 .slogan .company-title {
-  background: -webkit-linear-gradient(120deg, hsl(28, 72%, 83%), hsl(9, 94%, 61%));
+  background: -webkit-linear-gradient(120deg, hsl(28, 72%, 83%), hsl(44, 94%, 70%));
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   margin-top: 2rem;
@@ -106,7 +106,7 @@ img {
 }
 
 .slogan .company-slogan {
-  background: -webkit-linear-gradient(120deg, hsl(28, 72%, 83%), hsl(9, 94%, 61%));
+  background: -webkit-linear-gradient(120deg, hsl(28, 72%, 83%), hsl(44, 94%, 70%));
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   margin-top: 1rem;
@@ -458,11 +458,11 @@ template {
   margin: 2rem 0 1rem 0;
   width: 10rem;
   height: 3rem;
-  background-image: linear-gradient(to top, hsl(28, 72%, 83%), hsl(9, 94%, 61%));
+  background-image: linear-gradient(to top, hsl(28, 72%, 83%), hsl(44, 94%, 70%));
 }
 
 .offer-description .cart-btn:hover {
-  background-image: linear-gradient(to bottom, hsl(28, 72%, 83%), hsl(9, 94%, 61%));
+  background-image: linear-gradient(to bottom, hsl(28, 72%, 83%), hsl(44, 94%, 70%));
 }
 
 /* -------- PRODUCT SECTION ----------- */
@@ -573,7 +573,7 @@ input[type=text]::placeholder {
 
 input[type=submit] {
   cursor: pointer;
-  background-image: linear-gradient(to top, hsl(28, 72%, 83%), hsl(9, 94%, 61%));
+  background-image: linear-gradient(to top, hsl(28, 72%, 83%), hsl(44, 94%, 70%));
   color: hsl(12, 14%, 93%);
   margin: 1rem 0;
   border: none;
@@ -584,7 +584,7 @@ input[type=submit] {
 }
 
 input[type=submit]:hover {
-  background-image: linear-gradient(to bottom, hsl(28, 72%, 83%), hsl(9, 94%, 61%));
+  background-image: linear-gradient(to bottom, hsl(28, 72%, 83%), hsl(44, 94%, 70%));
   color: #fbfbfb;
 }
 
@@ -600,7 +600,7 @@ input[type=submit]:hover {
   font-weight: 500;
   font-size: 1.2rem;
   padding: 1rem 0;
-  background-image: -webkit-linear-gradient(120deg, hsl(28, 72%, 83%), hsl(9, 94%, 61%));
+  background-image: -webkit-linear-gradient(120deg, hsl(28, 72%, 83%), hsl(44, 94%, 70%));
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -918,7 +918,17 @@ input[type=submit]:hover {
   }
 }
 .home-computer {
-  width: 60%;
+  width: 50%;
+  padding: 4rem 0;
+}
+
+.itemnamemain {
+  color: white;
+  text-align: center;
+}
+
+.swiper {
+  width: 110rem;
 }
 
 .productos {
