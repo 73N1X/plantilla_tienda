@@ -15,6 +15,7 @@ $router->get('/', [PagesController::class, 'index']);
 $router->post('/', [PagesController::class, 'index']);
 $router->get('/contacto', [PagesController::class, 'contacto']);
 $router->post('/contacto', [PagesController::class, 'contacto']);
+$router->get('/ofertas', [PagesController::class, 'offers']);
 
 //Shop
 $router->get('/shop', [ShopController::class, 'shop']);

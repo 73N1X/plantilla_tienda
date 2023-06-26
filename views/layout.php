@@ -18,7 +18,7 @@
         <nav class="navbar">
             <ul class="nav-items">
                 <li class="nav-item"><a href="/" class="nav-link">INICIO</a></li>
-                <li class="nav-item"><a href="#" class="nav-link">OFERTAS</a></li>
+                <li class="nav-item"><a href="/ofertas" class="nav-link">OFERTAS</a></li>
                 <li class="nav-item"><a href="/shop" class="nav-link">TIENDA</a></li>
                 <li class="nav-item"><a href="/contacto" class="nav-link">CONTACTO</a></li>
                 <li class="nav-item"><a href="/#" class="nav-link"><i class="bi bi-cart"></i></a></li>

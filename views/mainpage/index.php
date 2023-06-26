@@ -6,7 +6,9 @@
       <div class="swiper-wrapper">
         <?php foreach ($items as $item) { ?>
           <div class="item swiper-slide">
-            <p class="itemnamemain"><?php echo $item->itemname ?></p>
+              <div class="img-pos">
+                <img class="articulo-img" src="../build/img/<?php echo $item->img ?>.webp" alt="imagen del articulo">
+              </div>
           </div>
         <?php } ?>
       </div>
@@ -23,11 +25,13 @@
   <!-- offer 2 -->
 
   <div class="offer offer-2">
-  <div class="trending-slider slider swiper">
+    <div class="trending-slider slider swiper">
       <div class="swiper-wrapper">
-        <?php foreach ($items as $item) { ?>
+      <?php foreach ($items as $item) { ?>
           <div class="item swiper-slide">
-            <p class="itemnamemain"><?php echo $item->itemname ?></p>
+              <div class="img-pos">
+                <img class="articulo-img" src="../build/img/<?php echo $item->img ?>.webp" alt="imagen del articulo">
+              </div>
           </div>
         <?php } ?>
       </div>

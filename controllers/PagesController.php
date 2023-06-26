@@ -20,4 +20,12 @@ class PagesController {
             
         ]);
     }
+
+    public static function offers(Router $router) {
+        $items = Items::all();
+
+        $router->render('mainpage/offers', [
+            'items' => $items
+        ]);
+    }
 }
