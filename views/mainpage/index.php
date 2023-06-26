@@ -2,7 +2,7 @@
   <!-- offer 1 -->
 
   <div class="offer offer-1">
-    <div class="just_in-slider slider swiper">
+    <div class="just-in-slider slider swiper">
       <div class="swiper-wrapper">
         <?php foreach ($items as $item) { ?>
           <div class="item swiper-slide">

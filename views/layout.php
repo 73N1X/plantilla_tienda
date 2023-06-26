@@ -14,7 +14,7 @@
 
 <body>
     <header>
-        <div class="company-logo">Plantilla - E-Shop</div>
+        <div class="company-logo">Plantilla - Temp</div>
         <nav class="navbar">
             <ul class="nav-items">
                 <li class="nav-item"><a href="/" class="nav-link">INICIO</a></li>
