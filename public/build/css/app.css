@@ -422,7 +422,7 @@ template {
 }
 
 .offer {
-  background-color: hsl(300, 100%, 0%);
+  background-color: white;
   margin: 1rem 0;
   display: grid;
 }
