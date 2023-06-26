@@ -8,7 +8,6 @@
                 <h3 class="nombre-articulo"><?php echo $item->itemname; ?></h3>
                 <p class="precio-articulo">PRECIO: $<?php echo $item->price ?></p>
                 <div class="btn-main">
-                    <button class="glow-on-hover" type="button" id="info">Info</button>
                     <button class="glow-on-hover" type="button" id="buy-article">Comprar</button>
                 </div>
             </div>

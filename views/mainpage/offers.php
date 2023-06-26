@@ -1,5 +1,5 @@
 <div class="itemcontainer">
-    <?php foreach ($items as $item) { ?>
+    <?php foreach (array_slice($items, 0, 1) as $item) { ?>
         <div class="articulo">
             <div class="img-pos">
                 <img class="articulo-img" src="../build/img/<?php echo $item->img ?>.webp" alt="imagen del articulo">
